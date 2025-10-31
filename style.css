@@ -75,6 +75,7 @@ a{
     border-radius: 10px;
     padding: 7px 25px;
     color: #F9FAF8;
+    font-size: 20px;
 }
 
 .hero-img{
@@ -87,7 +88,8 @@ a{
 }
 
 .hero-text,
-.header-links{
+.header-links,
+.call-text{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -144,3 +146,38 @@ a{
     font-weight: 700;
     text-align: end;
 }
+
+.call-to-action{
+    margin: 0 200px;
+    padding: 25px 50px;
+    border-radius:25px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-title{
+    font-size: 20px;
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.call-left{
+    flex: 2 1 0;
+}
+
+.call-right{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+.call-button{
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    font-size: 20px;
+    padding: 7px 30px;
+}   
