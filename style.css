@@ -93,7 +93,7 @@ a{
 }
 
 .cards{
-    padding: 0 200px;
+    margin: 0 200px;
 }
 
 .cards-title{
@@ -127,4 +127,20 @@ a{
     font-size: 18px;
     color: #1F2937;
     text-align: center;
+}
+
+.quote{
+    margin: 200px 300px 200px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-attribute{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: end;
 }
