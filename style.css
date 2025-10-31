@@ -148,9 +148,9 @@ a{
 }
 
 .call-to-action{
-    margin: 0 200px;
-    padding: 25px 50px;
-    border-radius:25px;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
     background-color: #3882F6;
     display: flex;
     justify-content: space-evenly;
@@ -180,4 +180,12 @@ a{
     background-color: #3882F6;
     font-size: 20px;
     padding: 7px 30px;
-}   
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #F9FAF8;
+}
